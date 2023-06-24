@@ -1,0 +1,177 @@
+.regbody {
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: AUTO;
+  height: AUTO;
+  margin: 0;
+  padding: 20px;
+}
+
+.main-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.regform {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  font-size: 14px;
+  font-family: Verdana;
+  color: #495057;
+  background: rgb(255, 255, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #888888;
+  border: 1px solid #b5b5b5;
+
+  /* display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  position: relative; */
+
+  /* background-image: url("bg4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+.regh1 {
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: #444444;
+  text-align: center;
+  font-size: 30px;
+  background-color: #f1f3f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #d40c5c;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  opacity: 0.9;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+.checkBox a,
+.signin a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  text-align: center;
+}
+.registerbtn:enabled {
+  background-color: #d40c5c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.registerbtn:disabled {
+  background-color: #d40c5c62;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.container {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+textarea[name="address"] {
+  width: 450px;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 4px -2px #888888;
+  border: 0.01px solid #b5b5b5;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 450px;
+  /* border-color: #363636; */
+  border: 0.01px solid #b5b5b5;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 4px -2px #888888;
+}
+
+.container-gender input {
+  width: 50px;
+  border-radius: 0px;
+  padding: 0px;
+  box-shadow: 0px 0px 0px;
+}
+
+.checkBox input {
+  width: 20px;
+  border-radius: 0px;
+  padding: 0px;
+  box-shadow: 0px 0px 0px;
+}
+.checkBox {
+  margin-top: 20px;
+}
+.container-gender {
+  font-weight: bolder;
+}
+.btn {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+input[type="number"] {
+  width: 40px;
+  font-size: 100%;
+  border: 0.01px solid #b5b5b5;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 4px -2px #888888;
+}
+
+input[type="phone"] {
+  width: 340px;
+  border: 0.01px solid #b5b5b5;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 4px -2px #888888;
+}
+.bg-img {
+  position: absolute;
+  /* background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  width: 300px;
+  height: 900px;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}

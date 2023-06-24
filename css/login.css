@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body>section{
+    width: 100vw;
+    height: 100vh;
+}
+
+body>section>section:first-child>h1{
+    position: absolute;
+    left: 37vw;
+    top: 33vh;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+body>section>section:first-child>form>div{
+    position: absolute;
+    top: 46vh;
+    left: 36vw;
+}
+
+body>section>section:first-child>form>div>div{
+    position: absolute;
+    top: 5.5vh;
+    width: 1vw;
+    height: 1vh;
+    border-radius: 10px;
+}
+
+body>section>section:first-child>form>div>div>i{
+    font-size: 2rem;
+    position: relative;
+    right: 1vw;
+}
+
+body>section>section:first-child>form>div>input:nth-child(2), body>section>section:first-child>form>div>input:nth-child(3){
+    display: block;
+    margin: 38px;
+    width: 264px;
+    height: 41px;
+    font-size: 1.2em;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+body>section>section:first-child>form>div>input:nth-child(3){
+    font-size: 1.2em;
+}
+
+body>section>section:first-child>form>div>div:nth-child(4){
+    position: absolute;
+    top: 20vh;
+    width: 1vw;
+    height: 1vh;
+    border-radius: 10px;
+}
+
+body>section>section:first-child>div>div:nth-child(4)>i{
+    color: black;
+}
+
+
+body>section>section:first-child>form>div>button{
+    position: relative;
+    left: 8.7vw;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 8vw;
+    height: 5vh;
+    cursor: pointer;
+}
+
+body>section>section:first-child>form>div>button:hover{
+    background-color: white;
+    color: black;
+}
+
+body>section>section:first-child>a:nth-child(3){
+    text-decoration: none;
+    position: relative;
+    top: 69vh;
+    left: 44vw;
+    color: #151515;
+    font-size: 1.1em;
+}
+
+
+body>section>section:first-child>a:nth-child(3):hover{
+    color: rgba(49, 49, 236, 0.79);
+}
+
+body>section>section:first-child>a:nth-child(4){
+    text-decoration: none;
+    position: relative;
+    top: 64vh;
+    left: 31vw;
+    color: #151515;
+    font-size: 1.1em;
+}
+
+body>section>section:first-child>a:nth-child(4):hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.94);
+}
+
+body>section>section:first-child>a:nth-child(4)>span{
+    font-weight: bolder;
+}
+/*----------------*/
+body>section>section:nth-child(2)>div:first-child{
+    width: 21vw;
+    height: 7vh;
+    background-color: rgba(2, 2, 166, 0.66);
+    position: absolute;
+    top: 106vh;
+    left: 39vw;
+    cursor: pointer;
+}
+
+body>section>section:nth-child(2)>div:first-child>i{
+    font-size: 2em;
+    position: relative;
+    top: 1.5vh;
+    left: 1vw;
+    color: white;
+}
+
+body>section>section:nth-child(2)>div:first-child>span{
+    position: relative;
+    left: 1.4vw;
+    top: 1.1vh;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+}
+/*---------------------------------*/
+body>section>section:nth-child(2)>div:nth-child(2){
+    width: 21vw;
+    height: 7vh;
+    background-color: rgb(230 230 230 / 50%);
+    position: absolute;
+    top: 114vh;
+    left: 39vw;
+    cursor: pointer;
+}
+
+body>section>section:nth-child(2)>div:nth-child(2)>img{
+    width: 3vw;
+    padding: 5px 10px 0 10px;
+}
+
+body>section>section:nth-child(2)>div:nth-child(2)>span{
+    position: relative;
+    top: -2.2vh;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: gray;
+}
+
+.selectionBox:hover{
+    animation-name: scaleUp;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.02);
+    }
+}

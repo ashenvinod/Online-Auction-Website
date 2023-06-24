@@ -1,0 +1,106 @@
+ 
+}
+
+
+body,
+ {
+	width: 100%;
+	height: 100%;
+	background-color:#212529;
+}
+
+ 
+ 
+ 
+ 
+.btn-dark:hover{
+	background-color: #fff;
+	border-color: #242424;
+	color: #242424;
+	font-family: 'Kanit',sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+
+}
+
+ 
+ 
+/*PRODUCT PAGE STYLING*/
+
+.blog-sidebar-title{
+	color: #323031;
+	font-family: 'Kanit',sans-serif;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.blog-sidebar-list{
+	color: #323031;
+	font-family: 'Kanit',sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.blog-sidebar-text{
+	color: #323031;
+	font-family: 'Kanit',sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.blog-form{
+	background-color: #bbdefb; 
+	padding: 50px;
+	height: 1000px;
+}
+
+.list-icon{
+
+	color: #1b263b;
+
+}
+
+.tags{
+	color: #004e98;
+	font-family: 'Kanit',sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+
+
+ 
+
+.product-sidebar-list:hover{
+	color: #779be7;
+}
+
+.card-title{
+	color: #219ebc;
+	font-family: 'Kanit',sans-serif;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.card-text{
+	font-family: 'Kanit',sans-serif;
+	font-size: 13px;
+}
+
+.price-tag{
+	color: #2a9d8f;
+	font-family: 'Kanit',sans-serif;
+	font-size: 2500px;
+	font-weight: 900;
+}
+
+.button-text{
+	font-family: 'Kanit',sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.product-image{
+	width: 200px;
+	height: 200px;
+}

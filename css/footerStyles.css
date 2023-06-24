@@ -1,0 +1,209 @@
+/* body {
+  margin: 0;
+  /* height: 500px; */
+.footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  background: white;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: none;
+  position: relative;
+  font-family: "Radio Canada", sans-serif;
+}
+.footerContainer1 {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: space-around;
+  padding: 2% 0% 0% 0%;
+}
+.footerColoumn1 {
+  width: 20%;
+  align-self: center;
+  margin-left: 5%;
+}
+.pfooter {
+  font-weight: bolder;
+  margin: 0;
+  margin-bottom: 7%;
+}
+.footerColoumn2 {
+  /* width: 16%; */
+  /* font-size: 20px; */
+  width: 20%;
+}
+.footerColoumn2 p {
+  font-size: 80%;
+}
+.footerColoumn3 {
+  /* width: 16%; */
+  font-size: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerColoumn4 {
+  /* width: 30%; */
+  font-size: 100%;
+  width: 25%;
+}
+.footerColoumn5 {
+  /* width: 16%; */
+  font-size: 100%;
+  width: 20%;
+  padding-left: 1%;
+  font-weight: bold;
+}
+.para {
+  font-size: 1%;
+  margin: 0;
+  color: #868e96;
+}
+.contact {
+  margin-top: 0px;
+  color: #868e96;
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.contacticon {
+  width: 20px;
+  height: 20px;
+}
+.ourEmail {
+  margin-top: 0px;
+  color: #868e96;
+  font-size: 15px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.emailicon {
+  width: 20px;
+  height: 20px;
+}
+.footerColoumn3 ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0px; /* Remove padding */
+  margin: 0; /* Remove margins */
+  font-size: 15px;
+}
+.usefulLinks {
+  padding: 0px; /* Remove padding */
+  margin: 0;
+}
+.usefulLinks a {
+  text-decoration: none;
+  color: #868e96;
+}
+.usefulLinks a:hover {
+  color: #339af0;
+  transition: 0.3s ease;
+}
+
+.newsletter-email {
+  width: 100%;
+  height: 12%;
+}
+.footerColoumn4 input[type="email"] {
+  /* padding: 5px 10% 5px 0px; */
+  padding: 1%;
+  font-size: 90%;
+  /* border: 2px solid #339af0; */
+  float: left;
+  width: 60%;
+  height: 120%;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 1000px;
+  padding-left: 4%;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+}
+
+.submitbtn {
+  background-color: #495057;
+  border: none;
+  color: white;
+  padding: 1.4% 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 90%;
+  border-radius: 100px;
+  font-weight: bolder;
+  width: 70px;
+  height: 180%;
+  margin-left: 2%;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+}
+.submitbtn:hover {
+  background-color: #2695ff;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+.fb,
+.twitter,
+.insta,
+.google {
+  padding: 8px;
+  font-size: 6px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.usefullink-icon {
+  stroke: #333;
+  width: 10px;
+  height: 10px;
+}
+
+.footerContainer2 {
+  position: absolute;
+  width: 100%;
+  height: 18%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2695ff;
+  color: white;
+  font-weight: bold;
+
+  bottom: 0;
+}
